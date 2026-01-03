@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center"
+    android:background="#F5F5F5">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Screen Object Tracker"
+        android:textSize="26sp"
+        android:textColor="#212121"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp" />
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ready to start"
+        android:textSize="16sp"
+        android:textColor="#4CAF50"
+        android:textStyle="bold"
+        android:layout_marginBottom="40dp" />
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="280dp"
+        android:layout_height="65dp"
+        android:text="START TRACKING"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="15dp" />
+
+    <Button
+        android:id="@+id/btnSetMidpoint"
+        android:layout_width="280dp"
+        android:layout_height="65dp"
+        android:text="SET MIDPOINT"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="15dp"
+        android:enabled="false" />
+
+    <Button
+        android:id="@+id/btnStop"
+        android:layout_width="280dp"
+        android:layout_height="65dp"
+        android:text="STOP TRACKING"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp"
+        android:enabled="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Instructions:\n1. Tap START TRACKING\n2. Grant permissions\n3. Tap SET MIDPOINT\n4. Tap screen to set aim point\n5. Objects tracked automatically"
+        android:textSize="14sp"
+        android:textColor="#757575"
+        android:gravity="center"
+        android:lineSpacingExtra="6dp" />
+
+</LinearLayout>
